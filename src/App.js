@@ -6,7 +6,7 @@ import {findAll, sendQuery}from '../src/Utils';
 class App extends React.Component {
 
   componentDidMount() {
-    this.postQuery();
+    // this.postQuery();
     this.getResponse();
   }
 
