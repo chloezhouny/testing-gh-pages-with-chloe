@@ -1,7 +1,7 @@
 import React from 'react';
 import logo from './logo.svg';
 import './App.css';
-import {findAll, sendQuery}from '../src/Utils';
+import findAll from '../src/Utils';
 
 class App extends React.Component {
 
