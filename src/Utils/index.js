@@ -8,13 +8,13 @@ export function findAll() {
     }) 
 }
 
-export function sendQuery(dataObj) {
-    return axios.post("/", dataObj, function(req, res) {
-        console.log("CLIENT POST HIT");
-        console.log("RECEIVED req FROM SERVER", req);
-        console.log("RECEIVED res FROM SERVER", res);
-    })
-}
+// export function sendQuery(dataObj) {
+//     return axios.post("/", dataObj, function(req, res) {
+//         console.log("CLIENT POST HIT");
+//         console.log("RECEIVED req FROM SERVER", req);
+//         console.log("RECEIVED res FROM SERVER", res);
+//     })
+// }
 
 export default axios.create({
   baseURL: "https://cors-anywhere.herokuapp.com/https://testing-backend-with-chloe.herokuapp.com/",
