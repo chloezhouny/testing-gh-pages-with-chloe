@@ -18,12 +18,12 @@ class App extends React.Component {
     })
   }
 
-  postQuery = () => {
-    sendQuery({
-      status: true,
-      message: "CLIENT SENDING DATA BODY TO SERVER"
-    })
-  }
+  // postQuery = () => {
+  //   sendQuery({
+  //     status: true,
+  //     message: "CLIENT SENDING DATA BODY TO SERVER"
+  //   })
+  // }
 
   render () {
     return (
