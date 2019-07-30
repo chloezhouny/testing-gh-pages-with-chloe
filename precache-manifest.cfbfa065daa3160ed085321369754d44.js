@@ -1,11 +1,11 @@
 self.__precacheManifest = [
   {
-    "revision": "6b410efbd07e52b0cbae",
+    "revision": "dfe0d76f628a4a2799b7",
     "url": "/testing-gh-pages-with-chloe/static/css/main.7943b338.chunk.css"
   },
   {
-    "revision": "6b410efbd07e52b0cbae",
-    "url": "/testing-gh-pages-with-chloe/static/js/main.250c8317.chunk.js"
+    "revision": "dfe0d76f628a4a2799b7",
+    "url": "/testing-gh-pages-with-chloe/static/js/main.b4119c2d.chunk.js"
   },
   {
     "revision": "3f552d9ff04a90ccb595",
@@ -20,7 +20,7 @@ self.__precacheManifest = [
     "url": "/testing-gh-pages-with-chloe/static/media/logo.5d5d9eef.svg"
   },
   {
-    "revision": "b534eb447fffaa34ee3371888a3e328a",
+    "revision": "4efd93a3f308b0b78eefcb5e4ddae187",
     "url": "/testing-gh-pages-with-chloe/index.html"
   }
 ];
