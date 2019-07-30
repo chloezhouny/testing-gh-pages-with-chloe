@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/3.6.3/workbox-sw.js");
 
 importScripts(
-  "/testing-backend-with-chloe/precache-manifest.54abeab5450864da3d3802d21dd89757.js"
+  "/testing-gh-pages-with-chloe/precache-manifest.c4425e6b7e0126b592de4e4a4cc04e9a.js"
 );
 
 workbox.clientsClaim();
@@ -28,7 +28,7 @@ self.__precacheManifest = [].concat(self.__precacheManifest || []);
 workbox.precaching.suppressWarnings();
 workbox.precaching.precacheAndRoute(self.__precacheManifest, {});
 
-workbox.routing.registerNavigationRoute("/testing-backend-with-chloe/index.html", {
+workbox.routing.registerNavigationRoute("/testing-gh-pages-with-chloe/index.html", {
   
   blacklist: [/^\/_/,/\/[^\/]+\.[^\/]+$/],
 });

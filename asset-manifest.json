@@ -1,14 +1,14 @@
 {
-  "main.css": "/testing-backend-with-chloe/static/css/main.7943b338.chunk.css",
-  "main.js": "/testing-backend-with-chloe/static/js/main.394bed8d.chunk.js",
-  "main.js.map": "/testing-backend-with-chloe/static/js/main.394bed8d.chunk.js.map",
-  "runtime~main.js": "/testing-backend-with-chloe/static/js/runtime~main.bf58d6be.js",
-  "runtime~main.js.map": "/testing-backend-with-chloe/static/js/runtime~main.bf58d6be.js.map",
-  "static/js/2.28a5fab2.chunk.js": "/testing-backend-with-chloe/static/js/2.28a5fab2.chunk.js",
-  "static/js/2.28a5fab2.chunk.js.map": "/testing-backend-with-chloe/static/js/2.28a5fab2.chunk.js.map",
-  "index.html": "/testing-backend-with-chloe/index.html",
-  "precache-manifest.54abeab5450864da3d3802d21dd89757.js": "/testing-backend-with-chloe/precache-manifest.54abeab5450864da3d3802d21dd89757.js",
-  "service-worker.js": "/testing-backend-with-chloe/service-worker.js",
-  "static/css/main.7943b338.chunk.css.map": "/testing-backend-with-chloe/static/css/main.7943b338.chunk.css.map",
-  "static/media/logo.svg": "/testing-backend-with-chloe/static/media/logo.5d5d9eef.svg"
+  "main.css": "/testing-gh-pages-with-chloe/static/css/main.7943b338.chunk.css",
+  "main.js": "/testing-gh-pages-with-chloe/static/js/main.250c8317.chunk.js",
+  "main.js.map": "/testing-gh-pages-with-chloe/static/js/main.250c8317.chunk.js.map",
+  "runtime~main.js": "/testing-gh-pages-with-chloe/static/js/runtime~main.331c9c18.js",
+  "runtime~main.js.map": "/testing-gh-pages-with-chloe/static/js/runtime~main.331c9c18.js.map",
+  "static/js/2.28a5fab2.chunk.js": "/testing-gh-pages-with-chloe/static/js/2.28a5fab2.chunk.js",
+  "static/js/2.28a5fab2.chunk.js.map": "/testing-gh-pages-with-chloe/static/js/2.28a5fab2.chunk.js.map",
+  "index.html": "/testing-gh-pages-with-chloe/index.html",
+  "precache-manifest.c4425e6b7e0126b592de4e4a4cc04e9a.js": "/testing-gh-pages-with-chloe/precache-manifest.c4425e6b7e0126b592de4e4a4cc04e9a.js",
+  "service-worker.js": "/testing-gh-pages-with-chloe/service-worker.js",
+  "static/css/main.7943b338.chunk.css.map": "/testing-gh-pages-with-chloe/static/css/main.7943b338.chunk.css.map",
+  "static/media/logo.svg": "/testing-gh-pages-with-chloe/static/media/logo.5d5d9eef.svg"
 }
