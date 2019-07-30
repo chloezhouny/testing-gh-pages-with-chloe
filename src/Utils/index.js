@@ -1,15 +1,22 @@
-import axios from 'axios';
-export default {
-    findAll: function (search) {
-        return axios.get(`/api/books/google/${search}`) // get all book by search term from google
-    }
-    // getSavedBooks: function () {
-    //     return axios.get('/api/books/') // all saved books from db
-    // },
-    // saveBook: function (bookData) {
-    //     return axios.post("/api/books", bookData) //save book to database
-    // },
-    // deleteBook: function (id) {
-    //     return axios.delete(`/api/books/${id}`)
-    // }
-};
+import axios from "axios";
+
+export function findAll() {
+    return axios.get(`/`, function(req, res) {
+        console.log("SERVER HIT CLIENT ROUTE");
+        console.log("SERVER REQ BODY: ", req.body);
+        // res.json({status: true, message: "SENDING MSG TO SERVER"})
+    }) 
+}
+
+export function sendQuery(dataObj) {
+    return axios.post("/", dataObj, function(req, res) {
+        console.log("CLIENT POST HIT");
+        console.log("RECEIVED req FROM SERVER", req);
+        console.log("RECEIVED res FROM SERVER", res);
+    })
+}
+
+export default axios.create({
+  baseURL: "https://cors-anywhere.herokuapp.com/https://testing-backend-with-chloe.herokuapp.com/",
+  responseType: "json"
+});
