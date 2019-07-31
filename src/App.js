@@ -12,9 +12,8 @@ class App extends React.Component {
 
   getResponse = () => {
     findAll().then(res => {
-      console.log(res);
-      
-      // console.log("SERVER RESPONDED WITH: ", res.data)
+      console.log(res.data);
+      // this.postQuery()
     })
   }
 
